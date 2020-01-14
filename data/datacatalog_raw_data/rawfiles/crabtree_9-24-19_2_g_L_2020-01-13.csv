@@ -1,0 +1,13 @@
+End Products
+Sample,Barcode,"",Glucose Avg(g/L),Xylose Avg(g/L),Pyruvate Avg(g/L),Xylitol Avg(g/L),Succinate Avg(g/L),Lactate Avg(g/L),Glycerol Avg(g/L),Formate Avg(g/L),Acetate Avg(g/L),Ethanol Avg(g/L),Cellobiose Avg(g/L)
+20190916-t-46,I0035844,"",0.0,0.2442104658,0.0107926336,0.0,0.0,0.1277928928,0.4971119499,0.0,0.2924803584,6.0269382124,0.0
+
+Technical Replicate Summary
+Sample,Barcode,Transfer_Sample,Glucose(g/L),Xylose(g/L),Pyruvate(g/L),Xylitol(g/L),Succinate(g/L),Lactate(g/L),Glycerol(g/L),Formate(g/L),Acetate(g/L),Ethanol(g/L),Cellobiose(g/L)
+20190916-t-46,I0035844,T0037325,0.0,0.2442104658,0.0107926336,0.0,0.0,0.1277928928,0.4971119499,0.0,0.2924803584,6.0269382124,0.0
+
+
+Sample,Barcode,Parent Barcode,batch,condition,strain_int
+20190916-t-46,I0035844,,,,
+
+
