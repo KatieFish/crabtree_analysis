@@ -9,16 +9,18 @@ bothdat<-df[which(df$Percent_glucose_consumed>=50), ]
     notboth<-x$x[which(x$freq==1)]
     bothdat<-bothdat[-which(bothdat$strain.int %in% notboth), ]
     bothdatflaskfermenters<- bothdat$strain.int[which(bothdat$condition=="f" & bothdat$Percent_yield>5)]
-    bothdatflaskferm<- bothdat[which(bothdat$strain.int %in% bothdatfermenters), ]
+    bothdatflaskferm<- bothdat[which(bothdat$strain.int %in% bothdatflaskfermenters), ]
     bothdattubefermenters<- bothdat[which(bothdat$condition=="t"), ]
     bothdattubeferm<- bothdattubefermenters[which(bothdattubefermenters$Percent_yield>10), ]
-    #bothdat<-tube_flask_difference(bothdat)
+    bothdat<-tube_flask_difference(bothdat)
     bothdat<-bothdat[c(5,21)]
     bothdatflaskferm<-bothdatflaskferm[c(5,21)]
     bothdat<-unique(bothdat)
     bothdatflaskferm<-unique(bothdatflaskferm)
     bothdattubeferm<-bothdattubeferm[c(5,21)]
     bothdattubeferm<-unique(bothdattubeferm)
+
+  tubeflaskclustdf<- bothdat[c(5,4,19)]
 
 
 #histogram of percent yeild for TUBE cultures that CONSUMED AT LEAST HALF OF AVAILABLE GLUCOSE

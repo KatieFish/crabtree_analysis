@@ -13,7 +13,7 @@
 #copying the master barcode file 
 cp Barcode_master_table_crabtree.tsv working_Barcode_master.tsv
 
-for FILE in crabtree_01-06-20_g_L_2020-01-13 JFW_20190916_g_L_2020-01-13 crabtree_01-06-20_g_L_2020-01-13 crabtree_10-21-19_g_L_2020-01-13 crabtree_10-28-19_g_L_2020-01-13 crabtree_10-7-19_g_L_2020-01-13 crabtree_11-05-19_g_L_2020-01-13 crabtree_11-12-19_g_L_2020-01-13 crabtree_11-19-19_g_L_2020-01-13 crabtree_12_09_19_g_L_2020-01-13 crabtree_12_24_19_g_L_2020-01-13 crabtree_12_30_19_g_L_2020-01-13 crabtree_9-24-19_g_L_2020-01-13 crabtree_9-30-19_g_L_2020-01-13 crabtree__10-14-19_g_L_2020-01-13 crabtree_12-16-19_g_L_2020-01-13
+for FILE in JFW_20190916_g_L_2020-01-13 crabtree_01-06-20_g_L_2020-01-13 crabtree_01-17-20_g_L_2020-03-10 crabtree_01-21-20_g_L_2020-03-10 crabtree_01-28-20_g_L_2020-03-10 crabtree_02-03-20_g_L_2020-03-10 crabtree_02-12-20_g_L_2020-03-10 crabtree_02-25-20_g_L_2020-03-10 crabtree_03-03-20_g_L_2020-03-10 crabtree_10-21-19_g_L_2020-01-13 crabtree_10-28-19_g_L_2020-01-13 crabtree_10-7-19_g_L_2020-01-13 crabtree_11-05-19_g_L_2020-01-13 crabtree_11-12-19_g_L_2020-01-13 crabtree_11-19-19_g_L_2020-01-13 crabtree_12-16-19_g_L_2020-01-13 crabtree_12_09_19_g_L_2020-01-13 crabtree_12_24_19_g_L_2020-01-13 crabtree_12_30_19_g_L_2020-01-13 crabtree_2-17-20_g_L_2020-03-10 crabtree_3-9-20_g_L_2020-03-10 crabtree_9-24-19_g_L_2020-01-13 crabtree_9-30-19_g_L_2020-01-13 crabtree__10-14-19_g_L_2020-01-13
 do
 
 echo $FILE
